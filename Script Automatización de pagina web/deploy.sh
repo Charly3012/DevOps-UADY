@@ -13,6 +13,7 @@ else
     cd DevOps-UADY || exit
     sudo git pull origin main || { echo "Error al actualizar el repositorio."; exit 1; }
     echo "Repositorio actualizado."
+    cd ..
 fi
 
 
