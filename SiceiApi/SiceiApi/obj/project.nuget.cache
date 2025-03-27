@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SuWJqlrYD9M=",
+  "dgSpecHash": "M6Pu+jrHR3o=",
   "success": true,
-  "projectFilePath": "Z:\\NASA\\SiceiApi\\SiceiApi\\SiceiApi.csproj",
+  "projectFilePath": "C:\\Proyectos\\DevOps-UADY\\SiceiApi\\SiceiApi\\SiceiApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\fastendpoints\\5.35.0\\fastendpoints.5.35.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\fastendpoints.attributes\\5.35.0\\fastendpoints.attributes.5.35.0.nupkg.sha512",
@@ -34,5 +34,12 @@
     "C:\\Users\\carlo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\yamldotnet\\16.2.0\\yamldotnet.16.2.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkgs.dev.azure.com/nasatec/_packaging/nasatec/nuget/v3/index.json."
+    }
+  ]
 }
